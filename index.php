@@ -83,6 +83,16 @@ $faqs = [
         <div class="col-12 d-flex align-items-center">
             <img src="https://www.google.ch/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png" class=" h-25" alt=""> <span class="text-secondary fs-5"> Privacy e Termini </span>
         </div>
+<div class="col-12">
+<ul class="list-inline text-secondary border-bottom">
+  <li class="list-inline-item"><a href="#" class="text-decoration-none text-secondary">Introduzione</a></li> 
+  <li class="list-inline-item"><a href="#" class="text-decoration-none text-secondary">Norme sulla privacya</a></li>
+  <li class="list-inline-item"><a href="#" class="text-decoration-none text-secondary">Termini di servizio</a></li>
+  <li class="list-inline-item"><a href="#" class="text-decoration-none text-secondary">Tecnologie</a></li>
+  <li class="list-inline-item border-bottom border-primary border-5  border-bottom"><a href="#" class="text-decoration-none text-secondary">Domande frequenti</a></li>
+</ul>
+</div>
+
     </div>
 </div>
 </header>
