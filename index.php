@@ -77,7 +77,17 @@ $faqs = [
 </head>
 
 <body>
-    <main class="container">
+<header>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 d-flex align-items-center">
+            <img src="https://www.google.ch/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png" class=" h-25" alt=""> <span class="text-secondary fs-5"> Privacy e Termini </span>
+        </div>
+    </div>
+</div>
+</header>
+
+    <main class="container mt-5">
         <?php
         foreach ($faqs as $key => $faq) {
             foreach ($faq as $singleFaq) {
