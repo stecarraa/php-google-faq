@@ -80,8 +80,10 @@ $faqs = [
 <header>
 <div class="container-fluid">
     <div class="row">
-        <div class="col-12 d-flex align-items-center">
-            <img src="https://www.google.ch/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png" class=" h-25" alt=""> <span class="text-secondary fs-5"> Privacy e Termini </span>
+        <div class="col-12 d-flex align-items-center justify-content-between">
+        <div class="h-50"> <img src="https://www.google.ch/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png" class=" h-100" alt=""> <span class="text-secondary fs-5"> Privacy e Termini </span></div>
+
+            <div class="rounded-circle bg-primary p-3 text-white">S</div>
         </div>
 <div class="col-12">
 <ul class="list-inline text-secondary border-bottom">
@@ -93,8 +95,12 @@ $faqs = [
 </ul>
 </div>
 
+
+
     </div>
 </div>
+
+
 </header>
 
     <main class="container mt-5">
@@ -108,8 +114,33 @@ $faqs = [
             }
         }
         ?>
+        
 
     </main>
+
+
+    <footer class="container-fluid bg-light">
+       <div class="container">
+       <div class="row">
+        <div class="col-12 p-3 d-flex justify-content-between">
+        <ul class="align-items-center list-unstyled">
+            <li class="list-inline-item"><a href="" class="text-decoration-none text-secondary">Google</a></li>
+            <li class="list-inline-item"><a href="" class="text-decoration-none text-secondary">About Google</a></li>
+            <li class="list-inline-item"><a href="" class="text-decoration-none text-secondary">Privacy</a></li>
+            <li class="list-inline-item"><a href="" class="text-decoration-none text-secondary">Terms</a></li>
+        </ul>
+        <div>
+        <select class="form-select" aria-label="Default select example">
+  <option selected>Italiano</option>
+  <option value="1">Inglese</option>
+  <option value="2">Tedesco</option>
+  <option value="3">Francese</option>
+</select>
+        </div>
+        </div>
+       </div>
+       </div>
+    </footer>
 </body>
 
 </html>
